@@ -1,0 +1,27 @@
+{
+  "name": "",
+  "version": "",
+  "description": "",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "mock": "nodemon mock-server/server.js"
+  },
+  "dependencies": {
+    "nodemon": "^1.12.1",
+    "qs": "^6.5.1"
+  },
+  "devDependencies": {
+    "mockjs": "^1.0.1-beta3",
+    "express": "^4.15.4"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
